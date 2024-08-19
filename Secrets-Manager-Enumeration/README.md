@@ -26,7 +26,7 @@ aws secretsmanager list-secrets
 
 Listing Secret Version IDs
 
-After identifying a secret by its ID or name, it is essential to determine whether multiple versions exist for that secret. Each version represents a distinct value, crucial for tracking changes made to the secret over time. Reviewing the various versions is crucial to ensure that sensitive information has not been leaked or incorrectly managed.
+After identifying a secret by its ID or name, it is essential to determine whether multiple versions exist for that secret. Each version represents a distinct value, crucial for tracking changes made to the secret over time. Reviewing the various versions is vital to ensure that sensitive information has not been leaked or incorrectly managed.
 
 aws secretsmanager list-secret-version-ids --secret-id <value>
 
