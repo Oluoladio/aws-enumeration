@@ -12,7 +12,7 @@ To list the inline policies for the user: aws iam list-user-policies --user-name
 
 Verify that the user's policy is granted access to S3. Replace <IAM_USER_NAME> with the actual username of the user being enumerated. The output will display any inline policies directly attached to the user. Analyzing these policies helps determine which S3 actions the user is allowed to perform and whether any security risks exist.
 
-Then retrieve the specific policy attached to the user: aws iam get-user-policy --user-name <IAMUSERNAME> --policy-name <POLICY_NAME>
+Then retrieve the specific policy attached to the iam user: aws iam get-user-policy --user-name <IAMUSERNAME> --policy-name <POLICY_NAME>  
 This will return the actions permitted by the policy, such as listing buckets, retrieving objects, or modifying data.
 
 # Proceed to enumerate S3 buckets and its contents
