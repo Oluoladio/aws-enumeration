@@ -5,9 +5,9 @@ aws sts get-caller-identity
 The output should look something like this: 
 
 {
-    "UserId": "AIDEXAMPLE987HJFS34",
-    "Account": "123456789012",
-    "Arn": "arn:aws:iam::123456789012:user/enumeration-Jane"
+    "UserId": "XXXXXXXX",
+    "Account": "XXXXXXXX",
+    "Arn": "arn:aws:iam::XXXXXX:user/enumeration-XXX"
 }
 
 From the Arn field in the output, after user/, you'll find the username, which in this case is enumeration-Jane. This username is crucial for subsequent commands where the username is required.
